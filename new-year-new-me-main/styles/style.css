@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Reusable Styles */
+.btn-primary {
+  background: #f15b22;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  padding: 20px 26px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  padding-bottom: 24px;
+}
+
+.section-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  padding-bottom: 16px;
+}
+
+/* Header */
+/* header {
+  background-image: url(../images/banner/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1903px;
+} */
+
+.header-img {
+  width: 100%;
+  position: relative;
+}
+
+.header-text {
+  width: 25%;
+  text-align: right;
+  position: absolute;
+  right: 200px;
+  top: 280px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  margin-bottom: 24px;
+  color: #151414;
+}
+
+.header-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 32px;
+}
+
+/* main */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Failure Section and Achievement Section */
+.failure-section,
+.achievement-section {
+  display: flex;
+  gap: 24px;
+  margin: 130px 0;
+}
+
+.failure-section-text,
+.achievement-section-text {
+  width: 400px;
+  padding-left: 88px;
+  margin-top: 240px;
+}
+
+.failure-section span {
+  color: #f15b22;
+}
+
+.failures,
+.achievements {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  display: inline-block;
+}
+
+.failure-section i {
+  color: rgba(241, 93, 34, 0.588);
+}
+
+.achievement-section img {
+  width: 700px;
+  height: 750.875px;
+  border-radius: 100%;
+  border: 10px solid hsla(84, 67%, 50%, 0.22);
+}
+
+.achievement-section span {
+  color: #8fd32a;
+}
+
+.achievement-section i {
+  color: rgba(140, 207, 39, 0.849);
+}
+
+/* Plan Section */
+.my-plan {
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.my-plan-container {
+  display: flex;
+  gap: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #151414;
+}
+
+.plan-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
+}
+
+/* Contact Section */
+.contact {
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("../images/watch.png");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  background-size: cover;
+  margin-bottom: 130px;
+}
+
+.contact .section-title {
+  color: #ffffff;
+  padding-top: 60px;
+  padding-left: 65px;
+  line-height: 47px;
+}
+
+.contact .btn-primary {
+  background-color: #ffffff;
+  color: #f15b22;
+  margin: 0 0 60px 65px;
+}
+
+/* Footer Section */
+.footer-section {
+  display: flex;
+  gap: 330px;
+  background-color: #151414;
+}
+
+.footer-left {
+  padding: 130px 0px 130px 400px;
+}
+.footer-left h3,
+.footer-left p {
+  color: #ffffff;
+}
+.footer-left p {
+  margin-bottom: 8px;
+}
+.footer-left img {
+  margin-right: 17px;
+}
+
+.footer-right {
+  padding: 130px 430px 130px 0;
+}
+
+.footer-right h5 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 32px;
+}
+.footer-right input {
+  background-color: #151414;
+  border: 2px solid #737272;
+  padding: 20px;
+  border-radius: 8px;
+  color: #F3F3F3;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.footer-right .btn-primary {
+  background-color: #ffffff;
+  color: #f15b22;
+}
